@@ -16,11 +16,11 @@ I put forward the hypothesis that changes in the world can be achieved by small 
 
 [Individual's role in changing the world](#individual's-role-in-changing-the-world)
 
-[Chapter 3: The Saviour. *Graphic designer's role in the world*](#chapter-3-the-saviour-graphic-designer's-role-in-the-world)
+[Chapter 3: The Saviour. *Graphic designer's role in the world*](#chapter-3-the-saviour-graphic-designers-role-in-the-world)
 
 [Branding in the age of conscience](#branding-in-the-age-of-conscience)
 
-[Graphic designer's role in changing the world](#graphic-designer's-role-in-changing-the-world)
+[Graphic designer's role in changing the world](#graphic-designers-role-in-changing-the-world)
 
 [Chapter 4: This is how you change the world. *Conclusion*](#chapter-4-this-is-how-you-save-the-world-conclusion)
 
