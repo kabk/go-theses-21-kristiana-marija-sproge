@@ -1,0 +1,205 @@
+/* @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap'); */
+@font-face {
+    font-family:'Akzidenz Grotesk Pro';
+    src: url(fonts/AkzidenzGroteskProRegularRegular.otf);
+    font-weight:400;
+  }
+
+  @font-face {
+    font-family:'EB Garamond';
+    src: url(fonts/EBGaramond-Regular.ttf);
+    font-weight:400;
+  }
+
+body{
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+    background: rgb(204, 204, 204)
+    heigth: auto;
+    line-height: 1.38;
+}
+
+.akzidenz { font-family: 'Akzidenz Grotesk Pro'; 
+}
+
+.of-onum { font-feature-settings: "onum"; }
+
+h1 {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin: 5;
+    line-height: 85%;
+    text-align: center;
+}
+
+h2 {
+    
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin: 0;
+    text-align: center;
+    line-height: 1.2;
+}
+
+h3{
+    text-align: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.img-camera{
+
+    margin-left:125px;
+
+
+}
+
+.img-mouse{
+    margin-right:150px;
+}
+
+.img-coltan{
+    margin-top: -50px;
+    margin-right:70px;
+    margin-left: 70px;
+}
+
+.img-sign{
+    margin-right:60px;
+    margin-left: 60px;
+}
+
+.img-names{
+    margin-right:30px;
+    margin-left:30px;
+}
+
+.img-glass{
+    margin-top:-35px;
+}
+
+.img-iphone{
+    margin-top: -23px;
+    margin-bottom:-23px;
+}
+
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0,0,0,0.1),
+    -30px 0px 40px rgba(0,0,0,0.1);
+    background-color:rgb(236, 236, 236);
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+}
+
+#landing {
+    background: rgb(198, 255, 28);
+    border-radius: 20px;
+}
+
+/* #landing-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#landing-text h2 {
+    color: rgb(255, 255, 255);
+} */
+
+#landing-image {
+    background: url(images/moving-cover-4.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 0 1 60vw;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+#header{
+padding: 1rem;
+text-align: center;
+background: rgb(0,0,0);
+color: #fff;
+border-radius: 20px;
+}
+
+.toc {
+    text-align: center;
+    margin-left: -3em;
+    margin-top: 4em;
+    line-height: 1.2;
+}
+
+#toc-title{
+    padding-left: 3em;
+}
+
+#chapter{
+    padding: 1rem;
+    text-align: center;
+    background: rgb(34, 20, 0);
+    color: #fff;
+    border-radius: 15px;
+    }
+
+
+#header h2{
+border-left: dotted 1p #fff;
+border-left: dotted 1p #fff;
+display: inline-block;
+padding-right: 1rem;
+padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.bibliography {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color:#333;
+    line-height: 1.1;
+}
+
+footer h4 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    line-height: 0.9;
+}
+
+/* Screen Sizes 500px and Up */
+
+@media (min-width: 700px) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+}
+
+Screen Sizes 700px and Up
+
+@media(min-width: 800px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}
