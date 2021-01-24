@@ -1,10 +1,3 @@
-jQuery(document).ready(function($) {
- 
-	$(".scroll").click(function(event){		
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-	});
-});
 
 var mybutton = document.getElementById("myBtn");
 
@@ -24,3 +17,11 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 680;
 }
+
+jQuery(document).ready(function($) {
+ 
+	$(".scroll").click(function(event){		
+		event.preventDefault();
+		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+	});
+});
