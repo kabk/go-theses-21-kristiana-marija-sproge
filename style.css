@@ -21,6 +21,7 @@
 html{
         scroll-behavior: smooth;
 }
+
 body{
     font-family: 'EB Garamond', serif;
     margin: 0;
@@ -28,7 +29,6 @@ body{
     heigth: auto;
     line-height: 1.38;
 }
-
 
 
 .akzidenz { font-family: 'Akzidenz Grotesk Pro'; 
@@ -80,9 +80,9 @@ h3{
     font-size: 10px;
     border: none;
     outline: none;
-    background-color: rgb(34, 20, 0);
+    background-color:  rgb(35, 46, 31);
     color: rgb(255, 255, 255);
-    padding: 15px;
+    padding: 20px;
     border-radius: 10px;
     font-family: 'Akzidenz Grotesk Pro';
   }
@@ -102,7 +102,7 @@ a:link {
   }
 
 a:visited {
-    color: rgb(37, 37, 37);
+    color:  rgb(35, 46, 31);
   }
   
 a:active {
@@ -157,6 +157,7 @@ img {
     margin-bottom:-23px;
 }
 
+/* MAIN */
 
 main {
     max-width: 900px;
@@ -200,7 +201,7 @@ main {
 #header{
 padding: 1rem;
 text-align: center;
-background: rgb(0,0,0);
+background:  rgb(35, 46, 31);
 color: #fff;
 border-radius: 15px;
 }
@@ -266,5 +267,4 @@ footer h4 {
     }
 }
 
-Screen Sizes 700px and Up
 
