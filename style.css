@@ -25,7 +25,8 @@ html{
 body{
     font-family: 'EB Garamond', serif;
     margin: 0;
-    background: rgb(211, 211, 211);
+    /* background: rgb(211, 211, 211); */
+    background: rgb(35, 46, 31);
     heigth: auto;
     line-height: 1.38;
 }
@@ -53,7 +54,8 @@ main {
     -30px 0px 40px rgba(0,0,0,0.1); */
     /* background-color: rgb(211, 211, 211); */
     /* background-image: linear-gradient( #ff6347, rgb(211, 211, 211)); */
-    background-color:rgb(211, 211, 211);
+    /* background-color:rgb(211, 211, 211); */
+    background-color: rgb(252, 252, 252);
     padding-left: 0.7em;
     padding-right: 0.7em;
 }
@@ -184,7 +186,7 @@ footer {
     color:#333;
     line-height: 1.1;
     /* background-color:rgb(178, 255, 150); */
-    background-image:linear-gradient(rgb(211, 211, 211), rgb(178, 255, 150));
+    background-image:linear-gradient(rgb(252, 252, 252), rgb(178, 255, 150));
     border-radius: 20px;
 }
 
