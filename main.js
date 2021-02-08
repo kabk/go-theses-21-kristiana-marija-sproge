@@ -52,3 +52,9 @@ for (i = 0; i < acc.length; i++) {
   });
 }
 
+// TOOLTIP 
+
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+
