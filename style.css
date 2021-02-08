@@ -26,7 +26,7 @@ body{
     font-family: 'EB Garamond', serif;
     margin: 0;
     /* background: rgb(211, 211, 211); */
-    heigth: auto;
+    height: auto;
     line-height: 1.38;
     
 }
@@ -463,15 +463,6 @@ img {
 .img-names{
     margin-right:30px;
     margin-left:30px;
-}
-
-.img-glass{
-    /* margin-top:-35px; */
-}
-
-.img-iphone{
-    /* margin-top: -23px;
-    margin-bottom:-23px; */
 }
 
 /*  TOOLTIP */
