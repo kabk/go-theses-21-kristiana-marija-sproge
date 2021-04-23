@@ -46,6 +46,10 @@ for (i = 0; i < acc.length; i++) {
     var panel = this.nextElementSibling;
     if (panel.style.maxHeight) {
       panel.style.maxHeight = null;
+       // trigger click on all images with opened tooltips within the panel
+     $( panel ).find( '.tooltip' ).each( function( ) {
+      $( this ).prev( ).trigger( 'click' );
+  } );
     } else {
       panel.style.maxHeight = panel.scrollHeight + "px";
     }
